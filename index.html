@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregou()">
+    <div class="container">
+        <div class="block" id="ES"></div>
+        <div class="block" id="MS"></div>
+        <div class="block" id="DS"></div>
+        <div class="block" id="EM"></div>
+        <div class="block" id="MM"></div>
+        <div class="block" id="DM"></div>
+        <div class="block" id="EI"></div>
+        <div class="block" id="MI"></div>
+        <div class="block" id="DI"></div>
+    </div>
+    <p class="mensagem">
+        Começar como:
+        <input type="button" value="X" onclick="chis()">
+        <input type="button" value="circulo" onclick="circulo()">
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>

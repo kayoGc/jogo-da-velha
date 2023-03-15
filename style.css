@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #6fa735;
+}
+
+.container {
+    display: flex;
+    max-width: 330px;
+    flex-wrap: wrap;
+    margin: 130px auto 0 auto;
+}
+
+.block {
+    display: inline-block;
+    min-height: 115px;
+    min-width: 100px;
+    border: solid 1px #d7eea5;;
+    box-sizing: border-box;
+    text-align: center;
+    font: normal 55pt arial;
+}
+
+#ES,
+#MS,
+#DS {
+    border-top: none;
+}
+
+#DS,
+#DM,
+#DI {
+    border-right: none;
+}
+
+#DI,
+#MI,
+#EI {
+    border-bottom: none;
+}
+
+#EI,
+#EM,
+#ES {
+    border-left: none;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    font: normal 15pt arial;
+}
+
+input {
+    font: normal 15pt arial;
+    text-align: center;
+    min-width: 100px;
+}
+
+.turno {
+    text-align: center;
+    font: normal 20pt arial;
+    margin-top: 30px;
+}
